@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item
+                android:id="@+id/nav_myaccount"
+                android:title="My Account"
+                android:icon="@drawable/account_icon"
+                android:menuCategory="secondary"
+                />
+<!--            <item-->
+<!--                android:id="@+id/nav_myNotesFragment"-->
+<!--                android:title="Online  Notes"-->
+<!--                android:icon="@drawable/notes_icon_image"-->
+<!--                android:menuCategory="secondary"-->
+<!--                />-->
+
+<!--            <item-->
+<!--                android:id="@+id/nav_myTestsFragment"-->
+<!--                android:title="My Tests"-->
+<!--                android:icon="@drawable/test_icon_image"-->
+<!--                android:menuCategory="secondary"-->
+<!--                />-->
+
+            <!--                <item-->
+            <!--                    android:id="@+id/nav_myEbookFragment"-->
+            <!--                    android:title="My Download"-->
+            <!--                    android:icon="@drawable/downloadd"-->
+            <!--                    android:menuCategory="secondary"-->
+            <!--                    />-->
+<!--            <item-->
+<!--                android:id="@+id/nav_blogFragment"-->
+<!--                android:title="Blog"-->
+<!--                android:icon="@drawable/web"-->
+<!--                android:menuCategory="secondary"-->
+<!--                />-->
+
+<!--        </menu>-->
+
+
+<!--    <item-->
+<!--        android:id="@+id/nav_myAccountFragment"-->
+<!--        android:title="My Account"-->
+<!--        android:icon="@drawable/account_icon_image"-->
+<!--        android:menuCategory="secondary"-->
+<!--        />-->
+
+<!--    <item-->
+<!--        android:id="@+id/nav_notificationsFragment"-->
+<!--        android:title="Notification"-->
+<!--        android:icon="@drawable/notification_icon_image"-->
+<!--        android:menuCategory="secondary"-->
+<!--        />-->
+
+
+        <item
+            android:id="@+id/nav_shareBtn"
+            android:title="Share This App"
+            android:icon="@drawable/share_icon"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_supportBtn"
+            android:title="Helpline"
+            android:icon="@drawable/contact_icon"
+            android:menuCategory="secondary"
+            />
+<!--        <item-->
+<!--            android:id="@+id/nav_youtubeBtn"-->
+<!--            android:title="YT Channel"-->
+<!--            android:icon="@drawable/youtube_icon_image"-->
+<!--            android:menuCategory="secondary"-->
+<!--            />-->
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="About Us"
+            android:icon="@drawable/about_icon"
+            android:menuCategory="secondary"
+            />
+
+        <item
+            android:id="@+id/nav_privacy"
+            android:title="Privacy Policy"
+            android:icon="@drawable/policy"
+            android:menuCategory="secondary"
+            />
+    <item
+        android:id="@+id/nav_signout"
+        android:title="Log Out"
+        android:icon="@drawable/logout_icon"
+        android:menuCategory="secondary"/>
+
+
+
+
+</menu>

@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeFragment">
+
+
+
+<ScrollView
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:orientation="vertical"
+          android:layout_height="match_parent">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPagerMain"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+      </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="8dp"
+
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                  <TextView
+                      android:background="@drawable/card_background"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                        android:text="ମୋ ଯୋଜନା, ମୋ ଅଧିକାର"
+                      android:textStyle="bold"
+                      android:gravity="center_horizontal"
+                      android:textColor="#3F51B5"
+                        android:textSize="20sp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:orientation="horizontal"
+                      android:weightSum="3"
+                      android:layout_height="wrap_content"
+
+                     >
+
+                        <androidx.cardview.widget.CardView
+                            android:background="@drawable/card_background"
+                            android:id="@+id/cv_edu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="16dp"
+                            android:layout_weight="1"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            >
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:padding="8dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+
+                              <ImageView
+                                   android:layout_marginTop="8dp"
+                                  android:layout_width="50dp"
+                                  android:layout_height="50dp"
+                                 android:layout_gravity="center"
+
+
+                                  android:src="@drawable/education" />
+
+                              <TextView
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:text="ଶିକ୍ଷା"
+                                  android:layout_gravity="bottom|center_horizontal"
+                                  android:layout_marginTop="12dp"
+                                  android:layout_marginBottom="8dp"
+                                  android:textColor="@color/black"
+                                  android:textSize="16sp"
+                                  android:textStyle="bold"
+                                  />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cv_health"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="16dp"
+                            android:layout_weight="1"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            >
+
+                              <LinearLayout
+                                  android:orientation="vertical"
+                                  android:padding="8dp"
+                                  android:gravity="center"
+                                  android:layout_gravity="center_horizontal"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content">
+
+
+                                    <ImageView
+                                        android:layout_marginTop="8dp"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+
+
+                                        android:src="@drawable/healthcare" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="ସ୍ୱାସ୍ଥ୍ୟ"
+                                        android:layout_gravity="bottom|center_horizontal"
+                                        android:layout_marginTop="12dp"
+                                        android:layout_marginBottom="8dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold"
+                                        />
+                              </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cv_krusi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="16dp"
+                            android:layout_weight="1"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            >
+
+                              <LinearLayout
+                                  android:orientation="vertical"
+                                  android:padding="8dp"
+                                  android:layout_gravity="center_horizontal"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content">
+
+
+                                    <ImageView
+                                        android:layout_marginTop="8dp"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+
+
+                                        android:src="@drawable/planting" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="କୃଷି"
+                                        android:layout_gravity="bottom|center_horizontal"
+                                        android:layout_marginTop="12dp"
+                                        android:layout_marginBottom="8dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold"
+                                        />
+                              </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                  </LinearLayout>
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:orientation="horizontal"
+                      android:weightSum="3"
+                      android:layout_height="wrap_content"
+                      >
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="16dp"
+                            android:layout_weight="1"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            android:id="@+id/cv_business"
+                            >
+
+                              <LinearLayout
+                                  android:orientation="vertical"
+                                  android:padding="8dp"
+                                  android:layout_gravity="center_horizontal"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content">
+
+
+                                    <ImageView
+                                        android:layout_marginTop="8dp"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+
+
+                                        android:src="@drawable/cooperation" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="ବ୍ୟବସାୟ"
+                                        android:layout_gravity="bottom|center_horizontal"
+                                        android:layout_marginTop="12dp"
+                                        android:layout_marginBottom="8dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold"
+                                        />
+                              </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="16dp"
+                            android:layout_weight="1"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            android:id="@+id/cv_bhataa"
+                            >
+
+                              <LinearLayout
+                                  android:orientation="vertical"
+                                  android:padding="8dp"
+                                  android:gravity="center"
+                                  android:layout_gravity="center_horizontal"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content">
+
+
+                                    <ImageView
+                                        android:layout_marginTop="8dp"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+
+
+                                        android:src="@drawable/retirement" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="ଭତ୍ତା"
+                                        android:layout_gravity="bottom|center_horizontal"
+                                        android:layout_marginTop="12dp"
+                                        android:layout_marginBottom="8dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold"
+                                        />
+                              </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="16dp"
+                            android:layout_weight="1"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            android:id="@+id/cv_home"
+                            >
+
+                              <LinearLayout
+                                  android:orientation="vertical"
+                                  android:padding="8dp"
+                                  android:layout_gravity="center_horizontal"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content">
+
+
+                                    <ImageView
+                                        android:layout_marginTop="8dp"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+
+
+                                        android:src="@drawable/home" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="ବାସସ୍ଥାନ"
+                                        android:layout_gravity="bottom|center_horizontal"
+                                        android:layout_marginTop="12dp"
+                                        android:layout_marginBottom="8dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold"
+                                        />
+                              </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                  </LinearLayout>
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:orientation="horizontal"
+                      android:weightSum="3"
+                      android:layout_height="wrap_content"
+                      >
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="16dp"
+                            android:layout_weight="1"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            android:id="@+id/cv_finance"
+                            >
+
+                              <LinearLayout
+                                  android:orientation="vertical"
+                                  android:padding="8dp"
+                                  android:layout_gravity="center_horizontal"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content">
+
+
+                                    <ImageView
+                                        android:layout_marginTop="8dp"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+
+
+                                        android:src="@drawable/budget" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="ଆର୍ଥିକ"
+                                        android:layout_gravity="bottom|center_horizontal"
+                                        android:layout_marginTop="12dp"
+                                        android:layout_marginBottom="8dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold"
+                                        />
+                              </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="16dp"
+                            android:layout_weight="1"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            android:id="@+id/cv_bima"
+                            >
+
+                              <LinearLayout
+                                  android:orientation="vertical"
+                                  android:padding="8dp"
+                                  android:gravity="center"
+                                  android:layout_gravity="center_horizontal"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content">
+
+
+                                    <ImageView
+                                        android:layout_marginTop="8dp"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+
+
+                                        android:src="@drawable/insurance" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="ବୀମା"
+                                        android:layout_gravity="bottom|center_horizontal"
+                                        android:layout_marginTop="12dp"
+                                        android:layout_marginBottom="8dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold"
+                                        />
+                              </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="16dp"
+                            android:layout_weight="1"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            android:id="@+id/cv_doc"
+                            >
+
+                              <LinearLayout
+                                  android:orientation="vertical"
+                                  android:padding="8dp"
+                                  android:layout_gravity="center_horizontal"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content">
+
+
+                                    <ImageView
+                                        android:layout_marginTop="8dp"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+
+
+                                        android:src="@drawable/stamp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="bottom|center_horizontal"
+                                        android:layout_marginTop="12dp"
+                                        android:layout_marginBottom="8dp"
+                                        android:text="ଦସ୍ତାବିଜ"
+                                        android:textColor="@color/black"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                              </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                  </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+      </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+
+</LinearLayout>

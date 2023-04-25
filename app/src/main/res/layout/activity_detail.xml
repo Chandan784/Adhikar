@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/scroll"
+
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_edu"
+        android:background="@drawable/card_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="16dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="4dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/title"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gadfgafdg hdghsfdgsfd fdsgfsdgf"
+                android:layout_gravity="center"
+                android:textSize="24sp"
+                android:maxLines="2"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+
+
+                />
+
+            <TextView
+                android:padding="4dp"
+                android:background="@drawable/card_background"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Audio ଶୁଣନ୍ତୁ -"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#4CAF50"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+
+                android:layout_margin="8dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+
+
+                <ImageView
+                    android:layout_marginRight="8dp"
+                    android:id="@+id/im_play"
+                    android:src="@drawable/volume"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"/>
+                <ImageView
+                    android:id="@+id/im_pause"
+                    android:src="@drawable/pause"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:background="@drawable/card_background"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ଯୋଜନା ର ଲାଭ -"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#4CAF50"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/benifits"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ଶିକ୍ଷା hfhdhgfhdgf"
+                android:padding="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"
+                android:layout_gravity="left|center_vertical"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:background="@drawable/card_background"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ବିବରଣୀ -"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#4CAF50"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+
+                android:id="@+id/details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ଶିକ୍ଷା hfhdhgfhdgf hdg jhjghkjgh jgjgj jggyfyf gyfyfyf yfyfyfy jgugtugug hgyfyfyfhf hgytgyfy yfuyfyggygy gyygygygh hgyfyfy hfyfyfyfh"
+
+
+                android:layout_marginTop="4dp"
+                android:padding="12dp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="8dp"
+
+                android:textColor="@color/black"
+                android:layout_gravity="left|center_vertical"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:background="@drawable/card_background"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ଯୋଗ୍ୟତା ମାନଦଣ୍ଡ -"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#4CAF50"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+
+                android:gravity="center"
+                android:id="@+id/criteria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ଶିକ୍ଷା hfhdhgfhdgf hdg jhjghkjgh jgjgj jggyfyf gyfyfyf yfyfyfy jgugtugug hgyfyfyfhf hgytgyfy yfuyfyggygy gyygygygh hgyfyfy hfyfyfyfh"
+
+                android:layout_marginTop="4dp"
+                android:padding="4dp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="8dp"
+
+                android:textColor="@color/black"
+                android:layout_gravity="left|center_vertical"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:background="@drawable/card_background"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ଆବେଦନ ପ୍ରକ୍ରିୟା -"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#4CAF50"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/process"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ଶିକ୍ଷା hfhdhgfhdgf hdg jhjghkjgh jgjgj jggyfyf gyfyfyf yfyfyfy jgugtugug hgyfyfyfhf hgytgyfy yfuyfyggygy gyygygygh hgyfyfy hfyfyfyfh"
+
+                android:layout_marginTop="4dp"
+                android:padding="12dp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="8dp"
+
+                android:textColor="@color/black"
+                android:layout_gravity="left|center_vertical"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:background="@drawable/card_background"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ଆବଶ୍ୟକ ଦସ୍ତାବିଜ ଗୁଡିକ -"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#4CAF50"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/documents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ଶିକ୍ଷା hfhdhgfhdgf hdg jhjghkjgh jgjgj jggyfyf gyfyfyf yfyfyfy jgugtugug hgyfyfyfhf hgytgyfy yfuyfyggygy gyygygygh hgyfyfy hfyfyfyfh"
+
+                android:layout_marginTop="4dp"
+                android:padding="12dp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="8dp"
+
+                android:textColor="@color/black"
+                android:layout_gravity="left|center_vertical"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>
