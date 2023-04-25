@@ -77,7 +77,7 @@ public class HomeFragment extends Fragment {
 
        broadcastIntent();
 
-
+// testing
 
 
         cv_edu.setOnClickListener(new View.OnClickListener() {
