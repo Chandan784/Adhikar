@@ -30,12 +30,13 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
+
 public class HomeFragment extends Fragment {
 
     ViewPager mViewPager;
 
     // images array
-kj;jj;nm'l/;l,''l.'. ,m.n.ln;j"m'
+
    private CardView cv_krusi,cv_edu,cv_health,cv_busi,cv_bhataa,cv_home,cv_finance,cv_bima,cv_doc;
     // Creating Object of ViewPagerAdapter
     SliderAdapter sliderAdapter;
@@ -76,7 +77,8 @@ kj;jj;nm'l/;l,''l.'. ,m.n.ln;j"m'
 
        broadcastIntent();
 
-// testig
+// testing
+
 
         cv_edu.setOnClickListener(new View.OnClickListener() {
             @Override
